@@ -2,7 +2,7 @@
 # inpath - verify that a specified program is either valid as-is,
 #   or can be found in the PATH directory list.
 
-in_path()
+in_patha()
 {
   # given a command and the PATH, try to find the command. Returns
   # 0 if found and executable, 1 if not. Note that this temporarily modifies 
@@ -20,7 +20,7 @@ in_path()
   return $retval
 }
 
-checkForCmdInPath()
+checkForCmdInPathb()
 {
   var=$1
   
